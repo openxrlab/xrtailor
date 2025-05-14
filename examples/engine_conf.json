@@ -1,0 +1,6 @@
+{
+    "LOG_PATH": "H:/OpenXRLab/Log",
+    "LOG_LEVEL": 0,
+    "HEADLESS_SIMULATION": false,
+    "ASSET_DIRECTORY": "H:/OpenXRLab/Assets"
+}

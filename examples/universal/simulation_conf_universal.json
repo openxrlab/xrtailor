@@ -1,0 +1,67 @@
+{
+    "PIPELINE_UNIVERSAL":
+    {
+		"CLOTHES": 
+		[
+			{
+				"OBJ_PATH": "H:/OpenXRLab/xrtailor/examples/universal/square_top.obj",
+				"POSITION": [0.2, 0.0, 0.2]
+			},
+			{
+				"OBJ_PATH": "H:/OpenXRLab/xrtailor/examples/universal/square_top.obj",
+				"POSITION": [0.2, 0.1, 0.2]
+			},
+			{
+				"OBJ_PATH": "H:/OpenXRLab/xrtailor/examples/universal/square_bottom.obj",
+				"ATTACHED_INDICES": [0, 53, 18, 35]
+			}
+		],
+		"OBSTACLES": [],
+		"NUM_FRAMES": 100
+    },
+	"ANIMATION":
+	{
+		"NUM_PRE_SIMULATION_FRAMES": 50,
+		"RECORD_OBSTACLE": true,
+		"RECORD_CLOTH": true,
+		"EXPORT_FORMAT": 0,
+		"EXPORT_DIRECTORY": "H:/OpenXRLab/Output",
+		"TARGET_FRAME_RATE": 24
+	},
+	"MODE_QUALITY": 
+	{
+		"SOLVER":
+		{
+			"NUM_SUBSTEPS": 1,
+			"NUM_ITERATIONS": 200,
+			"MAX_SPEED": 1000000.0,
+			"GRAVITY": [0.0, -9.8, 0.0],
+			"DAMPING": 0.98
+		},
+		"FABRIC":
+		{
+			"XX_STIFFNESS": 1.0,
+			"XY_STIFFNESS": 1.0,
+			"YY_STIFFNESS": 1.0,
+			"XY_POISSION_RATIO": 0.3,
+			"YX_POISSION_RATIO": 0.3,
+			"SOLVE_BENDING": true,
+			"BENDING_STIFFNESS": 1e-2,
+			"LONG_RANGE_STRETCHINESS": 1.1,
+			"GEODESIC_LRA": true
+		},
+		"REPULSION":
+		{
+			"ENABLE_IMMINENT_REPULSION": true,
+			"IMMINENT_THICKNESS": 1e-3,
+			"ENABLE_PBD_REPULSION": true,
+			"PBD_THICKNESS": 1e-4,
+			"RELAXATION_RATE": 0.75
+		},
+		"IMPACT_ZONE":
+		{
+			"OBSTACLE_MASS": 1e3,
+			"THICKNESS": 1e-4
+		}
+	}
+}

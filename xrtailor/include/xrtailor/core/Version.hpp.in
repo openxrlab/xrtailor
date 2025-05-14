@@ -1,0 +1,11 @@
+#pragma once
+
+// WARNING: Do not edit version.hpp directly. Instead, edit version.hpp.in
+
+#define XRTAILOR_NAME "@PROJECT_NAME@"
+#define XRTAILOR_VER "@PROJECT_VERSION@"
+#define XRTAILOR_VER_MAJOR "@PROJECT_VERSION_MAJOR@"
+#define XRTAILOR_VER_MINOR "@PROJECT_VERSION_MINOR@"
+#define XRTAILOR_VER_PATCH "@PROJECT_VERSION_PATCH@"
+
+#cmakedefine XRTAILOR_USE_DOUBLE

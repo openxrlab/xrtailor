@@ -1,0 +1,8 @@
+#pragma once
+
+//#define COLLISION_STEP_WRITE_LOG
+//#define CLOTH_DEBUG_LOG
+//#define OBSTACLE_DEBUG_LOG
+//#define IZO_CHECK_IMPACT_DEBUG
+
+#define IZO_PARALLEL_OPTIMIZATION
