@@ -9,9 +9,7 @@
 <div align="center">
 
 [![Documentation](https://readthedocs.org/projects/xrtailor/badge/?version=latest)](https://xrtailor.readthedocs.io/en/latest/?badge=latest)
-
 [![Percentage of issues still open](https://isitmaintained.com/badge/open/openxrlab/xrtailor.svg)](https://github.com/openxrlab/xrtailor/issues)
-
 [![license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 </div>
