@@ -14,7 +14,7 @@
 
 <div style="text-align: center;">
   <video style="width: 60%; max-width: 100%;" controls>
-    <source src="../_static/demo-mechanics.mp4" type="video/mp4">
+    <source src="https://github.com/user-attachments/assets/2fe3a8e1-cc01-4ba4-80c6-c00f4cb839cb" type="video/mp4">
   </video>
 </div>
 
@@ -31,7 +31,7 @@
 
 <div style="text-align: center;">
   <video style="width: 60%; max-width: 100%;" controls>
-    <source src="../_static/demo-mode.mp4" type="video/mp4">
+    <source src="https://github.com/user-attachments/assets/0e3d986e-1bdc-40fb-b916-ce52afdbb930" type="video/mp4">
   </video>
 </div>
 
@@ -41,7 +41,7 @@
 
 <div style="text-align: center;">
   <video style="width: 60%; max-width: 100%;" controls>
-    <source src="../_static/demo-smpl.mp4" type="video/mp4">
+    <source src="https://github.com/user-attachments/assets/faffb237-c3f3-4f09-bf2f-47ff7c1bec0a" type="video/mp4">
   </video>
 </div>
 
@@ -49,7 +49,7 @@
 
 <div style="text-align: center;">
   <video style="width: 60%; max-width: 100%;" controls>
-    <source src="../_static/demo-gltf.mp4" type="video/mp4">
+    <source src="https://github.com/user-attachments/assets/015f36c9-1bc6-4344-ac95-d6ad7975276b" type="video/mp4">
   </video>
 </div>
 
@@ -57,7 +57,7 @@
 
 <div style="text-align: center;">
   <video style="width: 60%; max-width: 100%;" controls>
-    <source src="../_static/demo-cli.mp4" type="video/mp4">
+    <source src="https://github.com/user-attachments/assets/18fc1805-1b8d-4ebf-985d-1a53ac45747a" type="video/mp4">
   </video>
 </div>
 
@@ -65,7 +65,7 @@
 
 <div style="text-align: center;">
   <video style="width: 60%; max-width: 100%;" controls>
-    <source src="../_static/demo-crowd.mp4" type="video/mp4">
+    <source src="https://github.com/user-attachments/assets/051c0946-dcb9-4151-8e60-b03d13a599b9" type="video/mp4">
   </video>
 </div>
 
@@ -75,7 +75,7 @@
 
 <div style="text-align: center;">
   <video style="width: 60%; max-width: 100%;" controls>
-    <source src="../_static/demo-gui.mp4" type="video/mp4">
+    <source src="https://github.com/user-attachments/assets/bb9dd20a-720f-468e-9ee1-2edb0d3937d7" type="video/mp4">
   </video>
 </div>
 
