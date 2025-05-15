@@ -19,11 +19,11 @@
 
 - *Realistic Cloth Mechanics*. *XRTailor* models the physical behavior of fabrics, incorporating key mechanical properties such as stretch, bending, and anisotropy to provide plausible cloth deformation.
 
-<div style="text-align: center;">
-  <video style="width: 50%; max-width: 100%;" controls>
+<p align="center">
+  <video width="50%" controls>
     <source src="docs/en/source/_static/demo-mechanics.mp4" type="video/mp4">
   </video>
-</div>
+</p>
 
 - *Collisions*. Collision detection and response are essential for cloth simulation. *XRTailor* supports obstacle-cloth collision, environment-cloth collision and self-collision. These features help maintain natural interactions between cloth and surrounding objects.
 
@@ -35,59 +35,59 @@
 
     - ***Quality Mode***: Prioritizes accuracy, delivering highly detailed simulations at the cost of increased computational overhead.
 
-<div style="text-align: center;">
-  <video style="width: 50%; max-width: 100%;" controls>
+<p align="center">
+  <video width="50%" controls>
     <source src="docs/en/source/_static/demo-mode.mp4" type="video/mp4">
   </video>
-</div>
+</p>
 
 - *Fully Automatic*. Unlike existing cloth simulators, animators do not need to place the cloth pieces in appropriate positions to dress an avatar.
 
 - *Highly Compatible with SMPL(X)*. *XRTailor* supports SMPL, SMPLH, SMPLX with AMASS integration.
 
-<div style="text-align: center;">
-  <video style="width: 50%; max-width: 100%;" controls>
+<p align="center">
+  <video width="50%" controls>
     <source src="docs/en/source/_static/demo-smpl.mp4" type="video/mp4">
   </video>
-</div>
+</p>
 
 - *GLTF Support*. Allows importing mannequins with skeletal animation in GLTF format.
 
-<div style="text-align: center;">
-  <video style="width: 50%; max-width: 100%;" controls>
+<p align="center">
+  <video width="50%" controls>
     <source src="docs/en/source/_static/demo-gltf.mp4" type="video/mp4">
   </video>
-</div>
+</p>
 
 - *Easy to Use*. Traditional cloth simulation workflow is laborious and knowledge intensive. *XRTailor* aims to simplify the process, allowing users to obtain desired outputs (such as Alembic or OBJ sequences) using a single command.
 
-<div style="text-align: center;">
-  <video style="width: 50%; max-width: 100%;" controls>
+<p align="center">
+  <video width="50%" controls>
     <source src="docs/en/source/_static/demo-cli.mp4" type="video/mp4">
   </video>
-</div>
+</p>
 
 - Simulation as a Service. *XRTailor* is a powerful and scalable platform designed for large-scale data generation. Our simulation service enables users to efficiently create and manage vast amounts of synthetic data. Designed for large-scale synthetic data generation, *XRTailor* can be deployed via Docker, even in headless environments.
 
-<div style="text-align: center;">
-  <video style="width: 50%; max-width: 100%;" controls>
+<p align="center">
+  <video width="50%" controls>
     <source src="docs/en/source/_static/demo-crowd.mp4" type="video/mp4">
   </video>
-</div>
+</p>
 
 - *Multi Platform Support*. *XRTailor* runs on Windows and Linux systems that support CUDA, offering flexibility across computing environments.
 
 - *OpenGL Rendering*. A built-in graphical interface provides visualization and control over the simulation process.
 
-<div style="text-align: center;">
-  <video style="width: 50%; max-width: 100%;" controls>
+<p align="center">
+  <video width="50%" controls>
     <source src="docs/en/source/_static/demo-gui.mp4" type="video/mp4">
   </video>
-</div>
+</p>
 
 ## Getting Started
 
-Please refer to our [documentation page](https://https://xrtailor.readthedocs.io) for more details.
+Please refer to our [documentation page](https://xrtailor.readthedocs.io) for more details.
 
 ## License
 
