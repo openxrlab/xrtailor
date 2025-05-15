@@ -1,8 +1,8 @@
-FROM registry.sensetime.com/zoetrope/nvidia/cudagl:11.3.0-devel-ubuntu20.04
+FROM nvidia/cudagl:11.3.0-devel-ubuntu16.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN sed -i 's/archive.ubuntu.com/repo.sensetime.com\/repository/g' /etc/apt/sources.list && apt update -y && \
+RUN sed -i 's@http://archive.ubuntu.com@http://mirrors.aliyun.com@g' /etc/apt/sources.list && apt update -y && \
     apt-get install -y --no-install-recommends build-essential git \
     wget vim tmux libtool autoconf automake libssl-dev libx11-dev \
     zlib1g-dev libxcursor-dev libxi-dev libxrandr-dev ninja-build \

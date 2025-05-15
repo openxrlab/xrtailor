@@ -33,9 +33,9 @@ zlib: for data compression
 Firstly, clone the repo:
 
 ```shell
-git clone https://gitlab.bj.sensetime.com/openxrlab/xrtailor.git
+git clone https://github.com/openxrlab/xrtailor.git
 
-cd tailor
+cd xrtailor
 ```
 
 Third-party libraries are managed as Git submodules. To download all dependencies with appropriate versions, run:

@@ -57,7 +57,7 @@ Note that if you need to use smpl pipeline, you need to manually download the SM
 
 ## Download Binary
 
-Download binary distribution from [release page](https://gitlab.bj.sensetime.com/openxrlab/xrtailor/-/releases).
+Download binary distribution from [release page](https://github.com/openxrlab/xrtailor/releases).
 
 (md-windows)=
 
@@ -85,7 +85,7 @@ To run the simulation, you need to configure both engine config and simulation c
 }
 ```
 
-The simulation config differs when you run different pipelines and solver modes. We provide some simulation config examples, see [smpl pipeline example](https://gitlab.bj.sensetime.com/openxrlab/xrtailor/-/tree/master/examples/smpl/), [gltf pipeline example](https://gitlab.bj.sensetime.com/openxrlab/xrtailor/-/tree/master/examples/gltf/) and [universal pipeline example](https://gitlab.bj.sensetime.com/openxrlab/xrtailor/-/tree/master/examples/universal/) for more details.
+The simulation config differs when you run different pipelines and solver modes. We provide some simulation config examples, see [smpl pipeline example](https://github.com/openxrlab/xrtailor/tree/main/examples/smpl/), [gltf pipeline example](https://github.com/openxrlab/xrtailor/tree/main/examples/gltf/) and [universal pipeline example](https://github.com/openxrlab/xrtailor/tree/main/examples/universal/) for more details.
 
 There are plenty of tunable parameters in engine config and simulation config, see [engine config example](./engine_config_example.md) and [simulation config example](./simulation_config_example.md) for more details.
 
@@ -125,7 +125,7 @@ To run the simulation, you need to configure both engine config and simulation c
 }
 ```
 
-The simulation config differs when you run different pipelines and solver modes. We provide some simulation config examples, see [smpl pipeline example](https://gitlab.bj.sensetime.com/openxrlab/xrtailor/-/tree/master/examples/smpl/), [gltf pipeline example](https://gitlab.bj.sensetime.com/openxrlab/xrtailor/-/tree/master/examples/gltf/) and [universal pipeline example](https://gitlab.bj.sensetime.com/openxrlab/xrtailor/-/tree/master/examples/universal/) for more details.
+The simulation config differs when you run different pipelines and solver modes. We provide some simulation config examples, see [smpl pipeline example](https://github.com/openxrlab/xrtailor/tree/main/examples/smpl/), [gltf pipeline example](https://github.com/openxrlab/xrtailor/tree/main/examples/gltf/) and [universal pipeline example](https://github.com/openxrlab/xrtailor/tree/main/examples/universal/) for more details.
 
 There are plenty of tunable parameters in engine config and simulation config, see [engine config example](./engine_config_example.md) and [simulation config example](./simulation_config_example.md) for more details.
 
