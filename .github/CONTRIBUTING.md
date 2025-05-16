@@ -24,6 +24,6 @@ We follow the [Google C++ Style Guide](https://google.github.io/styleguide/cppgu
 
 - [clang-format](https://clang.llvm.org/docs/ClangFormat.html): formatter
 
-Style configurations of clang-tidy can be found in [.clang-tidy](../.clang-tidy) and clang-format in [.clang-format](../clang-format).
+Style configurations of clang-tidy can be found in [.clang-tidy](../.clang-tidy) and clang-format in [.clang-format](../.clang-format).
 
 > Before creating a PR, make sure your code passes clang-tidy checks and is formatted with clang-format.
