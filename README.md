@@ -114,6 +114,7 @@ We appreciate all contributions to improve XRTailor. Please refer to [CONTRIBUTI
 - [XRMoGen](https://github.com/openxrlab/xrmogen): OpenXRLab Human Motion Generation Toolbox and Benchmark.
 - [XRNeRF](https://github.com/openxrlab/xrnerf): OpenXRLab Neural Radiance Field (NeRF) Toolbox and Benchmark.
 - [XRFeitoria](https://github.com/openxrlab/xrfeitoria): OpenXRLab Synthetic Data Rendering Toolbox.
+- [XRViewer](https://github.com/openxrlab/xrviewer): OpenXRLab Data Visualization Toolbox.
 
 ## References
 
