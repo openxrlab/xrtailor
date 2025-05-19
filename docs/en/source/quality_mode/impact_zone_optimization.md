@@ -268,8 +268,10 @@ If the algorithm (3) is implemented on the CPU, the procedure is straightforward
 
 ## References
 
-[1]: <span name = "ref19">Narain R, Samii A, O'brien J F. Adaptive anisotropic remeshing for cloth simulation[J]. ACM transactions on graphics (TOG), 2012, 31(6): 1-10.</span>
+[1]: <span name = "ref_arcsim">Narain R, Samii A, O'brien J F. Adaptive anisotropic remeshing for cloth simulation[J]. ACM transactions on graphics (TOG), 2012, 31(6): 1-10.</span>
 
-[2]: <span name = "ref21">Nocedal J, Wright S. Numerical Optimization[M]. Springer Science & Business Media, 2006.</span>
+[2]: <span name = "ref_numerical">Nocedal J, Wright S. Numerical Optimization[M]. Springer Science & Business Media, 2006.</span>
 
-[3]: <span name = "ref20">Tang M, Wang T, Liu Z, et al. I-Cloth: Incremental collision handling for GPU-based interactive cloth simulation[J]. ACM Transactions on Graphics (TOG), 2018, 37(6): 1-10.</span>
+[3]: <span name = "ref_icloth">Tang M, Wang T, Liu Z, et al. I-Cloth: Incremental collision handling for GPU-based interactive cloth simulation[J]. ACM Transactions on Graphics (TOG), 2018, 37(6): 1-10.</span>
+
+[4]: <span name = "ref_descent">Wang H, Yang Y. Descent methods for elastic body simulation on the GPU[J]. ACM Transactions on Graphics (TOG), 2016, 35(6): 1-10.</span>

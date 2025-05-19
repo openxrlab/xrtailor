@@ -168,12 +168,14 @@ We appreciate all contributions to improve XRTailor. Please refer to [CONTRIBUTI
 
 [25]: <span name = "ref_icm">Ye J, Zhao J. The intersection contour minimization method for untangling oriented deformable surfaces[C]//Proceedings of the ACM SIGGRAPH/Eurographics Symposium on Computer Animation. 2012: 311-316.</span>
 
-[26] <span name = "ref_smpl">SMPL: A Skinned Multi-Person Linear Model. Matthew Loper, Naureen Mahmood, Javier Romero, Gerard Pons-Moll, Michael J. Black. 2015</span>
+[26]: <span name = "ref_descent">Wang H, Yang Y. Descent methods for elastic body simulation on the GPU[J]. ACM Transactions on Graphics (TOG), 2016, 35(6): 1-10.</span>
 
-[27] <span name = "ref_smplify">SMPLify: http://smplify.is.tue.mpg.de. Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image. Federica Bogo*, Angjoo Kanazawa*, Christoph Lassner, Peter Gehler, Javier Romero, Michael Black. 2016</span>
+[27] <span name = "ref_smpl">SMPL: A Skinned Multi-Person Linear Model. Matthew Loper, Naureen Mahmood, Javier Romero, Gerard Pons-Moll, Michael J. Black. 2015</span>
 
-[28] <span name = "ref_mano">Embodied Hands: Modeling and Capturing Hands and Bodies Together. Javier Romero*, Dimitrios Tzionas*, and Michael J Black. 2017</span>
+[28] <span name = "ref_smplify">Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image. Federica Bogo*, Angjoo Kanazawa*, Christoph Lassner, Peter Gehler, Javier Romero, Michael Black. 2016</span>
 
-[29] <span name = "ref_smplx">Expressive Body Capture: 3D Hands, Face, and Body from a Single Image. G. Pavlakos*, V. Choutas*, N. Ghorbani, T. Bolkart, A. A. A. Osman, D. Tzionas and M. J. Black. 2019</span>
+[29] <span name = "ref_mano">Embodied Hands: Modeling and Capturing Hands and Bodies Together. Javier Romero*, Dimitrios Tzionas*, and Michael J Black. 2017</span>
 
-[30] <span name = "ref_amass">AMASS: Archive of Motion Capture as Surface Shapes. Mahmood, Naureen and Ghorbani, Nima and Troje, Nikolaus F. and Pons-Moll, Gerard and Black, Michael J.</span>
+[30] <span name = "ref_smplx">Expressive Body Capture: 3D Hands, Face, and Body from a Single Image. G. Pavlakos*, V. Choutas*, N. Ghorbani, T. Bolkart, A. A. A. Osman, D. Tzionas and M. J. Black. 2019</span>
+
+[31] <span name = "ref_amass">AMASS: Archive of Motion Capture as Surface Shapes. Mahmood, Naureen and Ghorbani, Nima and Troje, Nikolaus F. and Pons-Moll, Gerard and Black, Michael J.</span>
