@@ -35,7 +35,7 @@ endif()
 include(CheckLanguage)
 check_language(CUDA)
 if(CMAKE_CUDA_COMPILER)
-    find_package(CUDA REQUIRED)  # 查找 CUDA 工具链
+    find_package(CUDA REQUIRED)
     enable_language(CUDA)
     if(CMAKE_CUDA_COMPILER_VERSION VERSION_GREATER_EQUAL 11.0)
         set(CMAKE_CUDA_STANDARD 17)
@@ -184,7 +184,6 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
         $<$<COMPILE_LANGUAGE:CXX>:-Wno-deprecated-declarations>
         $<$<COMPILE_LANGUAGE:CXX>:-Wno-format-security>
         $<$<COMPILE_LANGUAGE:CXX>:-Wno-unused-result>
-        # $<$<COMPILE_LANGUAGE:CXX>:-ftime-report>
         $<$<AND:$<COMPILE_LANGUAGE:CXX>,$<CONFIG:Release>>:-O3>
         $<$<AND:$<COMPILE_LANGUAGE:CXX>,$<CONFIG:Release>>:-funroll-loops>
         $<$<AND:$<COMPILE_LANGUAGE:CXX>,$<CONFIG:Debug>>:-g>
