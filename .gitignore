@@ -1,39 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/cmake,visualstudio,visualstudiocode,c++,cuda
-# Edit at https://www.toptal.com/developers/gitignore?templates=cmake,visualstudio,visualstudiocode,c++,cuda
-
-### C++ ###
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Created by https://www.toptal.com/developers/gitignore/api/cmake,visualstudio,visualstudiocode,cuda
+# Edit at https://www.toptal.com/developers/gitignore?templates=cmake,visualstudio,visualstudiocode,cuda
 
 ### CMake ###
 CMakeLists.txt.user
