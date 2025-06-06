@@ -63,7 +63,7 @@ Download binary distribution from [release page](https://github.com/openxrlab/xr
 
 ## Windows
 
-We tested our engine on Windows10 with CUDA 11.3. To execute the binary, make sure that you have CUDA 11.3+ installed.
+We tested our engine on Windows10 with CUDA 11.3. To execute the binary, make sure that you have CUDA 11.3-12.0 installed.
 
 The binary distribution contains the following files:
 
@@ -103,7 +103,7 @@ For more example usages:
 
 ## Linux
 
-We tested our engine on Ubuntu 16.04/18.04 with Nvidia driver 515.65.01, CUDA 11.3. To execute the binary, make sure that you have Nvidia driver 515.65+ and CUDA 10.3+ installed.
+We tested our engine on Ubuntu 16.04/18.04 with Nvidia driver 515.65.01, CUDA 11.3. To execute the binary, make sure that you have Nvidia driver 515.65+ and CUDA 11.3-12.0 installed.
 
 The binary distribution contains the following files:
 

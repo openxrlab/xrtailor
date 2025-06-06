@@ -60,7 +60,7 @@ Visual Studio version: Visual Studio 2019
 Windows SDK version: 10.0.19041.0
 Nvidia driver version: 528.49
 CUDA version: 11.3
-cmake version: 3.26.0-rc2
+cmake version: 3.31.1
 ```
 
 ### Install Dependencies
