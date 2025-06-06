@@ -48,7 +48,7 @@ Solving a constrained problem directly is not simple. We convert the constrained
 A constrained optimization problem has the following form:
 
 ```{math}
-\min f(x) \quad \text{s.t.} \quad g(x) \leq 0$ \tag{5}
+\min f(x) \quad \text{s.t.} \quad g(x) \leq 0 \tag{5}
 ```
 where $f: \mathbb{R}^n \to \mathbb{R}$ is the objective function in $n$ dimensional space; $g: \mathbb{R}^n \to \mathbb{R}^m$ is vector constraints of size $m$. Equation 5 can be written as:
 
