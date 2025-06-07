@@ -119,4 +119,4 @@ We appreciate all contributions to improve XRTailor. Please refer to [CONTRIBUTI
 
 ## References
 
-Our project is inspired by many previous studies, and we are grateful for the development and sharing within the community. Refer to [docs/reference](docs/reference.md) for prior outstanding work.
+Our project is inspired by many previous studies, and we are grateful for the development and sharing within the community. Refer to [reference](docs/reference.md) for prior outstanding work.
