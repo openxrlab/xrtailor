@@ -61,8 +61,8 @@ A simulation config should follow the structure as shown below:
 
 |PARAM|FIELD|TYPE|DEFAULT VALUE|DESCRIPTION|
 | :-----: | ----- | ----- | ----- | ----- |
-|CLOTHES|Required|vector\<CLOTH\>|\-|Clothes to be added to the scene.|
-|OBSTACLES|Required|vector\<OBSTACLE\>|\-|Obstacles to be added to the scene.|
+|CLOTHES|Required|vector<CLOTH\>|\-|Clothes to be added to the scene.|
+|OBSTACLES|Required|vector<OBSTACLE\>|\-|Obstacles to be added to the scene.|
 |NUM\_FRAMES|Optional|int|100|Number of frames to simulate.|
 
 in which the CLOTH and OBSTACLE are defined as follows:
@@ -75,7 +75,7 @@ in which the CLOTH and OBSTACLE are defined as follows:
 |POSITION|Optional|vec3|(0, 0, 0)|Position of the cloth in world space.|
 |ROTATION|Optional|vec3|(0, 0, 0)|Euler rotation of the cloth in world space.|
 |SCALE|Optional|vec3|(1, 1, 1)|Scale of the cloth in world space.|
-|ATTACHED_INDICES|Optional|vector\<int\>|[]|Indices of vertices to be fixed during the simulation.|
+|ATTACHED_INDICES|Optional|vector<int\>|[]|Indices of vertices to be fixed during the simulation.|
 
 - OBSTACLE:
 

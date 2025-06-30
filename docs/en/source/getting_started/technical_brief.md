@@ -57,7 +57,7 @@ Resolving thousands of collisions that can readily occur can be prohibitively ex
 
   - ***Imminent Repulsion***: A DCD method that tries to prevent collisions from happening in the near future. Once two proximities are close enough, a positional update is applied to the cloth vertices to prevent the penetration. 
   
-  - ***Realized Repulsion***: Checks the states between current position and advanced position. Hard constraints will be added if there exists contact.
+  - ***PBD Repulsion***: Checks the states between current position and advanced position. Hard constraints will be added if there exists contact.
 
 Based on our observations, the repulsion step dramatically reduces the number of collisions, making the impact zone optimization tractable and efficient.
 
