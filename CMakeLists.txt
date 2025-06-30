@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(XRTailor VERSION 1.8.0 LANGUAGES CXX C)
+project(XRTailor VERSION 1.9.0 LANGUAGES CXX C)
 
 option(XRTAILOR_USE_DOUBLE "Whether use double-precision floating-point arithmetic" OFF)
 option(XRTAILOR_BUILD_TESTS "Build tests" OFF)
