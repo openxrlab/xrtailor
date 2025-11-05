@@ -144,7 +144,7 @@ Specifically, we have the first and second derivatives of $F(x)$:
 ```{math}
 \begin{equation}
 \begin{cases}
-\nabla F(x^{k}) = \frac{1}{\Delta t^2} M (x^{k} - x^{0} - \Delta t v^{0}) - f(x^{k}) = 0 \\
+\nabla F(x^{k}) = \frac{1}{\Delta t^2} M (x^{k} - x^{n} - \Delta t v^{n}) - f(x^{k}) = 0 \\
 \frac{\partial F^2(x^{k})}{\partial x^2} = \frac{1}{\Delta t^2}M + H(x^{k})
 \end{cases}
 \tag{12}
@@ -283,7 +283,7 @@ x_{i+1} = x_i + \Delta x
 \end{equation}
 ```
 
-This iteratively updates $x$ and $\lambda$ that satisfy equation (29). However, as mentioned before, the evaluation of the *Hessian* is too expensive, and the system needs a line search algorithm to be robust. Therefore, XPBD makes two approximations to simplify the problem:
+This iteratively updates $x$ and $\lambda$ that satisfy equation (23). However, as mentioned before, the evaluation of the *Hessian* is too expensive, and the system needs a line search algorithm to be robust. Therefore, XPBD makes two approximations to simplify the problem:
 
 1. $K \approx M$, thus omitting geometric stiffness and Hessian terms. This approximation slows down the local convergence rate but does not change the global error.
 
@@ -338,7 +338,7 @@ s_j = \frac{- C_j(x_i) }{ \nabla C_j(x_i)M^{-1} \nabla C_{j}^{T}(x_i) } \tag{30}
 and the $\Delta x$ comes to:
 
 ```{math}
-\Delta x = k_j s_j M^{-1} \nabla C^{T}(x_i) \Delta \lambda \tag{31}
+\Delta x = k_j s_j M^{-1} \nabla C^{T}(x_i) \tag{31}
 ```
 
 ### Step Integration
@@ -373,7 +373,7 @@ where $\ddot{x}$ represents acceleration and can be represented as the second de
 Assume that $x(t)$ is a function of time $t$; our goal is to estimate the value of $x$ at time $t^{n+1}$. We first linearize $x(t)$ using a Taylor expansion:
 
 ```{math}
-x(t) = x(t^n) + (t - t^n)\dot{x}(t^n) + \frac{1}{2!} (t - t^n)^2 \ddot{x}(t^n) \tag{34} + ...
+x(t) = x(t^n) + (t - t^n)\dot{x}(t^n) + \frac{1}{2!} (t - t^n)^2 \ddot{x}(t^n) + ... \tag{34}
 ```
 
 Substituting $t = t^n + \Delta t$, we have the discretized representation at $x(t^n + \Delta t)$:
