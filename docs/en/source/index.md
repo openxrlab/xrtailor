@@ -100,6 +100,7 @@ getting_started/technical_brief.md
 :maxdepth: 2
 
 common/preparing_your_own_asset.md
+common/mass_spring_system.md
 ```
 
 ```{toctree}
